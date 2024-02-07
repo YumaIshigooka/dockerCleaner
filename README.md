@@ -1,2 +1,2 @@
 # dockerCleaner
-clean stopped containers &amp; their respective images
+Clean stopped containers &amp; their respective images all at the same time. 
