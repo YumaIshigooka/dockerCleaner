@@ -1,5 +1,5 @@
 # dockerCleaner
-Clean all "<none>" images, and their respective stopped container that was running it, not allowing to delete the images.
+Clean all <none> images, and their respective stopped container that was running it, not allowing to delete the images.
 
 ## Run Locally
 
