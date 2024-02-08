@@ -15,11 +15,14 @@ Go to the project directory
   cd dockerCleaner
 ```
 
-Run the script (will ask for permissions, check the source code to ensure the reason)
+Run the script
 
 ```bash
   python3 cleanDocker.py
 ```
-
-If you know how to remove the need of admin privileges, let me know.
+or 
+```bash
+  sudo python3 cleanDocker.py
+```
+if superuser access is needed to run docker.
 

@@ -3,14 +3,14 @@ import re
 
 if __name__ == "__main__":
     # List all the Images and Exited Containers.
-    os.system("sudo docker image ls > img_list.txt")
-    os.system("sudo docker ps --filter \"status=exited\" > container_list.txt")
+    os.system("docker image ls > img_list.txt")
+    os.system("docker ps --filter \"status=exited\" > container_list.txt")
     f_images = open("img_list.txt", "r")
     f_cont = open("container_list.txt", "r")
 
     # The final commands
-    cont_cmd = "sudo docker rm "
-    img_cmd = "sudo docker rmi "
+    cont_cmd = "docker rm "
+    img_cmd = "docker rmi "
 
     # To only remove containers listed on the image list.
     img_set = set()
